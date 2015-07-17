@@ -3,16 +3,16 @@
      overflow-x:hidden;
 }
 .outside_top {
-    width:600px; 
+    width:1200px; 
     margin :0px auto;
     
 }
 
 #title {
-    width:600px;
-    height:30px;
+    width:1200px;
+    height:60px;
     font-size:24px;
-    line-height:30px;
+    
     margin:0px;
     padding:0px;
     font-weight:900;
@@ -20,19 +20,19 @@
 }
 .title {
     float:left;
-    padding-right:10px;
-    padding-left:10px;
+    padding-right:30px;
+    padding-top:30px;
+    /*padding-left:10px;
     padding-top:0px;
-    padding-bottom:0px;
+    padding-bottom:0px;*/
     margin:0px;
-    background-color:red;
-    border-top-right-radius:10px;
-    border-top-left-radius:10px;
+   
+    
 }
 
 #content {
-    width:600px;
-    height:200px;
+    width:1200px;
+    height:360px;
     margin:0px;
     padding:0px;
 
@@ -41,33 +41,38 @@
 #content1 {
     margin:0px;
     padding:0px;
-    width:600px;
-    height:200px;
+    width:1200px;
+    height:360px;
     background-color:red;
-    border-bottom-right-radius:30px;
+   
 }
 #content2 {
     margin:0px;
     padding:0px;
-    width:600px;
-    height:200px;
+    width:1200px;
+    height:360px;
     background-color:gray;
-    border-bottom-right-radius:30px;
+    
 }
 #content3 {
     margin:0px;
     padding:0px;
-    width:600px;
-    height:200px;
+    width:1200px;
+    height:360px;
     background-color:black;
-    border-bottom-right-radius:30px;
+   
     
 }
 #content4 {
     margin:0px;
     padding:0px;
-    width:600px;
-    height:200px;
+    width:1200px;
+    height:360px;
     background-color:yellow;
-    border-bottom-right-radius:30px;
+   
+}
+#top_1 {
+    background-image:url(benjibird_img/1.png);
+    background-repeat:no-repeat;
+    height:700px;
 }
