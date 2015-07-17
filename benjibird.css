@@ -3,54 +3,71 @@
      overflow-x:hidden;
 }
 .outside_top {
-    width:1200px; 
+    width:600px; 
     margin :0px auto;
     
 }
 
 #title {
-    width:1200px;
-    height:60px;
+    width:600px;
+    height:30px;
     font-size:24px;
-    
+    line-height:30px;
+    margin:0px;
+    padding:0px;
     font-weight:900;
     color:#000000;
 }
 .title {
     float:left;
-    padding-right:30px;
-    padding-top:30px;
-    
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin:0px;
+    background-color:red;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
 }
 
 #content {
-    width:1200px;
-    height:360px;
-    
+    width:600px;
+    height:200px;
+    margin:0px;
+    padding:0px;
+
 }
 
 #content1 {
-    width:1200px;
-    height:360px;
+    margin:0px;
+    padding:0px;
+    width:600px;
+    height:200px;
     background-color:red;
-    
+    border-bottom-right-radius:30px;
 }
 #content2 {
-    width:1200px;
-    height:360px;
+    margin:0px;
+    padding:0px;
+    width:600px;
+    height:200px;
     background-color:gray;
-    
+    border-bottom-right-radius:30px;
 }
 #content3 {
-    width:1200px;
-    height:360px;
+    margin:0px;
+    padding:0px;
+    width:600px;
+    height:200px;
     background-color:black;
-    
+    border-bottom-right-radius:30px;
     
 }
 #content4 {
-    width:1200px;
-    height:360px;
+    margin:0px;
+    padding:0px;
+    width:600px;
+    height:200px;
     background-color:yellow;
-    
+    border-bottom-right-radius:30px;
 }
