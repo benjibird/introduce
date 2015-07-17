@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title><script type="text/javascript">
+
+    function show() {
+        document.getElementById("div").style.display = "";
+        //alert(document.getElementById("div").style.display)
+    }
+    function hidden() {
+        document.getElementById("div").style.display = "none";
+        //alert(document.getElementById("div").style.display)
+    }
+</script>
+</head>
+<body>
+        <input name="name" type="button" onclick="show();" value="显示">
+        <div id="div" style="display: none" onmouseout="hidden();">
+            show it
+        </div>
+    </body>
+</html>
